@@ -1,4 +1,3 @@
-FROM java
-copy target/javadocker-1.0-SNAPSHOT.jar /usr/src/javadocker-1.0-SNAPSHOT.jar
+FROM maven:3.2-jdk-7-onbuild
 
-CMD java -cp /usr/src/javadocker-1.0-SNAPSHOT.jar Main
+CMD mvn package exec:java

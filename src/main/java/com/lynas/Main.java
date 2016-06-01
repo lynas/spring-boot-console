@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
 /**
- * Created by LynAs on 01-Jun-16.
+ * Created by LynAs on 01-Jun-16
  */
 @SpringBootApplication
 public class Main {
